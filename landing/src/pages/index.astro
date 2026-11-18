@@ -5,8 +5,8 @@ import loginScreenshot from '@/assets/screenshots/login.webp';
 import profileTopArtistsScreenshot from '@/assets/screenshots/profile_top_artists.webp';
 import profileTopSongsScreenshot from '@/assets/screenshots/profile_top_songs.webp';
 
-const GITHUB = 'https://github.com/mliem2k/playtivity';
-const DOWNLOAD = 'https://github.com/mliem2k/playtivity/releases/latest';
+const GITHUB = 'https://github.com/mliemm/playtivity';
+const DOWNLOAD = 'https://github.com/mliemm/playtivity/releases/latest';
 
 const features = [
   {
@@ -744,7 +744,7 @@ const steps = [
       btn.disabled = true;
       btn.textContent = 'Fetching...';
       try {
-        const res = await fetch('https://api.github.com/repos/mliem2k/playtivity/releases');
+        const res = await fetch('https://api.github.com/repos/mliemm/playtivity/releases');
         const releases: { prerelease: boolean; assets: { name: string; browser_download_url: string }[] }[] = await res.json();
         const nightly = releases.find(r => r.prerelease);
         const apk = nightly?.assets?.find(a => a.name.endsWith('.apk'));
