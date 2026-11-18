@@ -599,7 +599,7 @@ private fun SettingsPage(state: PlaytivityState, viewModel: PlaytivityViewModel,
             SettingsSection("ABOUT")
             SettingsTile(Icons.Filled.Info, "Playtivity", "Version ${state.version}")
             SettingsDivider()
-            SettingsTile(Icons.Filled.OpenInBrowser, "GitHub Releases", "View all releases and download APKs", onClick = { openUrl("https://github.com/mliem2k/playtivity/releases") })
+            SettingsTile(Icons.Filled.OpenInBrowser, "GitHub Releases", "View all releases and download APKs", onClick = { openUrl("https://github.com/mliemm/playtivity/releases") })
             SettingsDivider()
             SettingsTile(Icons.Filled.MusicNote, "About", "See what your friends are listening to on Spotify")
             Spacer(Modifier.height(32.dp))

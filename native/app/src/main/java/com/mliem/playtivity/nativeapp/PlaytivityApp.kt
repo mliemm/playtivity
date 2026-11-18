@@ -27,7 +27,7 @@ class PlaytivityApp : Application() {
         UpdateClient(
             context = this,
             config = UpdateConfig(
-                repo = "mliem2k/playtivity",
+                repo = "mliemm/playtivity",
                 installReceiver = InstallResultReceiver::class.java,
                 channels = listOf(Channel.STABLE),
                 updatesEnabled = packageName == PRODUCTION_PACKAGE,

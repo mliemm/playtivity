@@ -63,7 +63,7 @@ Example: `0.0.2-nightly-20260611-050901+1781212141`
 ### In-app update detection (`../android-core/update/src/main/java/com/mliem/android/update/ReleaseParser.kt`)
 
 The updater is the shared `com.mliem.android:update` module from
-[android-core](https://github.com/mliem2k/android-core), included from the
+[android-core](https://github.com/mliemm/android-core), included from the
 `android-core` checkout beside this repository (or `ANDROID_CORE_DIR`). It reads
 the release notes' `**Version**` and `+BUILD` when present, so old wall-clock
 tags still resolve to the real Android version code.
